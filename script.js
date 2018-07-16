@@ -1,0 +1,1 @@
+document.getElementById('getAccess').onclick = e => alert('Please give access')
