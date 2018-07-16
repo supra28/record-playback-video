@@ -17,7 +17,9 @@ getAccessBtn.onclick = e => {
         getAccessBtn.style.display = 'none';
         startBtn.removeAttribute('disabled');
         resetVideo();
-      }).catch(e => console.error(e));
+      }).catch(e => { 
+        alert("Access Denied")  
+        console.error(e)});
     }  
 
 startBtn.onclick = e => {
